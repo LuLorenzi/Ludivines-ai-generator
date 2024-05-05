@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Ludivine's AI generator</title>
   </head>
   <body>
     <div class="container">
     <header>
-      <h1>Ludivine's AI generator</h1>
+      <h1>Haïku generator</h1>
     </header>
     <main>
-      <form class="form">
+      <form class="form" id="form">
         <input
           type="text"
           placeholder="Enter your request"
@@ -22,11 +23,7 @@
         />
         <input type="submit" class="button"/>
       </form>
-      <div class="output">
-        The answer will go here
-        <br />
-        Space for a second line
-      </div>
+      <div class="output" id="haiku"></div>
     </main>
     <footer>
       This was coded by
