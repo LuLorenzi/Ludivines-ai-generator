@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>Ludivine's AI generator</title>
   </head>
   <body>
@@ -16,10 +17,11 @@
       <form class="form" id="form">
         <input
           type="text"
-          placeholder="Enter your request"
+          placeholder="Enter a topic"
           autofocus
           required
           class="input"
+          id="user-instructions"
         />
         <input type="submit" class="button"/>
       </form>

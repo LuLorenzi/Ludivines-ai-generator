@@ -61,6 +61,12 @@ h1 {
   border-radius: 4px;
 }
 
+.output strong {
+    color: #b5838d;
+    font-weight: 200;
+    font-style: italic;
+}
+
 footer {
   text-align: center;
   font-size: 12px;
