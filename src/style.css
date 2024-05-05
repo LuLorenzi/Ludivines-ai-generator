@@ -4,6 +4,14 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
+.background-image {
+  background-image: url(img/cherryblossoms.jpg);
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
 .container {
   margin: 120px auto;
   max-width: 500px;
@@ -15,6 +23,10 @@ h1 {
   font-size: 35px;
   line-height: 1.5;
   color: #3f364e;
+  padding: 10px;
+  background-color: #ffebec;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
 .definition {
