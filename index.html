@@ -7,20 +7,22 @@
     <title>Ludivine's AI generator</title>
   </head>
   <body>
+    <div class="container">
     <header>
       <h1>Ludivine's AI generator</h1>
     </header>
     <main>
-      <form>
+      <form class="form">
         <input
           type="text"
           placeholder="Enter your request"
           autofocus
           required
+          class="input"
         />
-        <input type="submit" />
+        <input type="submit" class="button"/>
       </form>
-      <div>
+      <div class="output">
         The answer will go here
         <br />
         Space for a second line
@@ -42,6 +44,7 @@
         >Netlify</a
       >.
     </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
