@@ -46,6 +46,7 @@ h1 {
   color: #3f364e;
   width: 100px;
   background-color: #b5838d;
+  cursor: pointer;
 }
 
 .output {
