@@ -10,39 +10,44 @@
   </head>
   <body>
     <div class="container">
-    <header>
-      <h1>Haïku generator</h1>
-    </header>
-    <main>
-      <form class="form" id="form">
-        <input
-          type="text"
-          placeholder="Enter a topic"
-          autofocus
-          required
-          class="input"
-          id="user-instructions"
-        />
-        <input type="submit" class="button"/>
-      </form>
-      <div class="output" id="haiku"></div>
-    </main>
-    <footer>
-      This was coded by
-      <a href="https://github.com/LuLorenzi" target="_blank"
-        >Ludivine Lorenzi</a
-      >
-      and is open-sourced on
-      <a
-        href="https://github.com/LuLorenzi/Ludivines-ai-generator"
-        target="_blank"
-        >Github</a
-      >
-      hosted on
-      <a href="https://app.netlify.com/teams/lulorenzi/overview" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      <header>
+        <h1>Haïku generator</h1>
+      </header>
+      <main>
+        <div class="form-container">
+          <form class="form" id="form">
+            <input
+              type="text"
+              placeholder="Enter a topic"
+              autofocus
+              required
+              class="input"
+              id="user-instructions"
+            />
+            <input type="submit" class="button" />
+          </form>
+          <div class="example">i.e: rain, joy, coffee</div>
+        </div>
+        <div class="output hidden" id="haiku"></div>
+      </main>
+      <footer>
+        This was coded by
+        <a href="https://github.com/LuLorenzi" target="_blank"
+          >Ludivine Lorenzi</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/LuLorenzi/Ludivines-ai-generator"
+          target="_blank"
+          >Github</a
+        >
+        hosted on
+        <a
+          href="https://app.netlify.com/teams/lulorenzi/overview"
+          target="_blank"
+          >Netlify</a
+        >.
+      </footer>
     </div>
     <script src="src/script.js"></script>
   </body>
